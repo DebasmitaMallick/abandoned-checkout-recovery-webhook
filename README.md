@@ -46,8 +46,8 @@ This project is an Abandoned Checkout Recovery Plugin for e-commerce businesses.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/abandoned-checkout-recovery-backend.git
-   cd abandoned-checkout-recovery-backend
+   git clone https://github.com/DebasmitaMallick/abandoned-checkout-recovery-webhook.git
+   cd backend
    ```
 2. **Create a virtual environment and activate it:**
 
@@ -60,23 +60,31 @@ This project is an Abandoned Checkout Recovery Plugin for e-commerce businesses.
     ```bash
     pip install -r requirements.txt
     ```
-4. **Set up the SQLite database:**
+4. **Set the sender email address in your system's environment variable with the key: sender_email_id_webhook**
+
+5. **Set the sender email address password in your system's environment variable with the key: email_app_password_webhook**
+    If you use 2-Step-Verification and get a "password incorrect" error when you sign in, you can try to use an app password.
+    https://myaccount.google.com/apppasswords
+
+6. **Set up the SQLite database:**
 
     ```bash
-    python setup_db.py  # Or any script that initializes your database schema
+    python init_db.py  
     ```
-5. **Run the Flask server:**
+7. **Run the Flask server:**
 
     ```bash
     python app.py
     ```
-6. **Start the Redis server:**
+8. **Start the Redis server:**
 
     ```bash
     sudo service redis-server start
     ```
-7. **Start the Celery worker:**
+9. **Start the Celery worker:**
 
     ```bash
     celery -A app.celery_app worker --loglevel=info --pool=solo
     ```
+
+### Frontend Setup
