@@ -1,0 +1,4 @@
+backend/venv
+backend/__pycache__
+backend/database/abandoned_checkout.db
+backend/database/schema.sql

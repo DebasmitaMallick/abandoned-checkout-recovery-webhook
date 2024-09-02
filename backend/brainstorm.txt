@@ -1,0 +1,22 @@
+after 0 hour of "abandoned_at" ---
+send message
+
+after 30 minutes ---
+send message
+
+after 1 day ---
+send message
+
+after 3 days ---
+send message
+
+
+10 * 0, 10 * 3, 10 * 48*3, 10 * 48*3*3
+
+i = 4
+k = 0
+for interval in range(i):
+	time = 10 * interval
+
+
+
