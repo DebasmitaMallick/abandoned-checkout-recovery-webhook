@@ -41,12 +41,18 @@ This project is an Abandoned Checkout Recovery Plugin for e-commerce businesses.
 - Python 3.x
 - Node.js and npm
 
-### Backend Setup
+### Setup
 
-1. **Clone the repository:**
+**Clone the repository:**
 
    ```bash
    git clone https://github.com/DebasmitaMallick/abandoned-checkout-recovery-webhook.git
+   ```
+### Backend Setup
+
+1. **Go to backend directory:**
+
+   ```bash
    cd backend
    ```
 2. **Create a virtual environment and activate it:**
@@ -88,3 +94,24 @@ This project is an Abandoned Checkout Recovery Plugin for e-commerce businesses.
     ```
 
 ### Frontend Setup
+
+1. **Go to frontend directory:**
+
+   ```bash
+   cd frontend
+   ```
+2. **Install the required packages:**
+
+    ```bash
+   npm install
+   ```
+3. **Start the development server:**
+
+    ```bash
+   npm start
+   ```
+
+### Usage
+
+- Access the frontend at http://localhost:3000 to view the table of sent messages and orders created.
+- The backend is accessible at http://localhost:5000, where it listens for webhook events and processes them.
