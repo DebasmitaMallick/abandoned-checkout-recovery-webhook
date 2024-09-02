@@ -10,9 +10,6 @@ This project is an Abandoned Checkout Recovery Plugin for e-commerce businesses.
 - [Backend Setup](#backend-setup)
 - [Frontend Setup](#frontend-setup)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
