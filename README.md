@@ -68,7 +68,8 @@ This project is an Abandoned Checkout Recovery Plugin for e-commerce businesses.
     ```
 4. **Set the sender email address in your system's environment variable with the key: sender_email_id_webhook**
 
-5. **Set the sender email address password in your system's environment variable with the key: email_app_password_webhook**
+5. **Set the sender email address password in your system's environment variable with the key: email_app_password_webhook:**
+
     If you use 2-Step-Verification and get a "password incorrect" error when you sign in, you can try to use an app password.
     https://myaccount.google.com/apppasswords
 
@@ -114,4 +115,4 @@ This project is an Abandoned Checkout Recovery Plugin for e-commerce businesses.
 ### Usage
 
 - Access the frontend at http://localhost:3000 to view the table of sent messages and orders created.
-- The backend is accessible at http://localhost:5000, where it listens for webhook events and processes them.
+- The backend is accessible at http://localhost:5002, where it listens for webhook events and processes them.
